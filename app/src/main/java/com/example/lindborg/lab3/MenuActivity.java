@@ -14,13 +14,22 @@ public class MenuActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
         final Intent screenInfo = new Intent(this, ScreenInfo.class);
+        final Intent shapeActivity = new Intent(this, ShapeActivity.class);
 
-        Button screenInfoBtn = findViewById(R.id.button3);
+        Button screenInfoBtn    = findViewById(R.id.button3);
+        Button shapeBtn         = findViewById(R.id.shapeButton);
 
         screenInfoBtn.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
                 startActivity(screenInfo);
+            }
+        });
+
+        shapeBtn.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                startActivity(shapeActivity);
             }
         });
 

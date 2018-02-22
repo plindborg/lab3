@@ -21,7 +21,8 @@
         <activity android:name=".MenuActivity" />
         <activity
             android:name=".ScreenInfo"
-            android:label="@string/title_activity_screen_info"></activity>
+            android:label="@string/title_activity_screen_info" />
+        <activity android:name=".ShapeActivity"></activity>
     </application>
 
 </manifest>
