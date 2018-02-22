@@ -15,9 +15,11 @@ public class MenuActivity extends Activity {
         setContentView(R.layout.activity_menu);
         final Intent screenInfo = new Intent(this, ScreenInfo.class);
         final Intent shapeActivity = new Intent(this, ShapeActivity.class);
+        final Intent bitmapActivity = new Intent(this, BitmapActivity.class);
 
         Button screenInfoBtn    = findViewById(R.id.button3);
         Button shapeBtn         = findViewById(R.id.shapeButton);
+        Button bitmapButton     = findViewById(R.id.button2);
 
         screenInfoBtn.setOnClickListener(new View.OnClickListener() {
 
@@ -30,6 +32,13 @@ public class MenuActivity extends Activity {
 
             public void onClick(View v) {
                 startActivity(shapeActivity);
+            }
+        });
+
+        bitmapButton.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                startActivity(bitmapActivity);
             }
         });
 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lindborg.lab3.BitmapActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="333dp"
+        android:layout_height="425dp"
+        android:src="@android:drawable/screen_background_light_transparent"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="41dp" />
+</android.support.constraint.ConstraintLayout>
