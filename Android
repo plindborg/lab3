@@ -44,6 +44,21 @@ Google play är Androids marknadsplats där man kan köpa och ladda ner appar. D
 Fördelen med Google Play är apparna är skannade av Google efter skadlig kod. Det är därför säkrare att hämta appar från Google Play än att ladda ner APK:er från någon okänd webbsida
 
 
+Screensizes skriv om detta.
+https://android-developers.googleblog.com/2011/07/new-tools-for-managing-screen-sizes.html
+
+
+Activity är en grundläggande komponent i en Android app. En activity lever i en livscykel. En livscykel består av 7 metoder som är callbackmetoder. En callbackmetoder är en metod som anropas av systemet vid
+beronde på activityns tillstånd t ex när användaren startar, stänger en activity/app.
+
+De sju metoderna i en livscykel
+onCreate()
+onStart()
+onResume()
+onPause()
+onStop()
+onRestart()
+onDestroy()
 
 
 
